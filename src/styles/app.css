@@ -1,0 +1,88 @@
+
+@font-face {
+  font-family: "NotoSans";
+  src: url(../fonts/NotoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "NotoSans-Bold";
+  src: url(../fonts/NotoSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "NotoSans-SemiBold";
+  src: url(../fonts/NotoSans-SemiBold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  --resume-accent: #0e374e;
+  --resume-font: "NotoSans", sans-serif;
+  --resume-bold: "NotoSans-Bold", sans-serif;
+  --header-resume-color: white;
+  --section-resume-bg: rgba(14, 55, 78, 0.07);
+  --main-bg-color: #f3f4f6;
+  font-family: "NotoSans", sans-serif;
+  background-color: var(--main-bg-color);
+}
+
+button {
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 14px;
+  font-family: "NotoSans-bold";
+}  
+body{
+      font-family: 'Inter', sans-serif;
+}
+h1{
+    font-size: 24px;
+    font-family: 'montserrat',sans-serif;
+}
+p {
+    white-space: normal;       
+    word-wrap: break-word;     
+    overflow-wrap: break-word; 
+    max-width: 65%;           
+    box-sizing: border-box;    
+}
+i{
+    margin-right: 8px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 24px;
+    margin-inline: 10px;
+    margin-block: 0;
+    padding-inline: 24px;
+    padding-block: 32px;
+    font-size: 16px;
+    position: relative;
+    min-width: 1500px;
+    /* max-width: 1500px; */
+     white-space: normal; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+
+    /* background-color: yellow; */
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+     /* margin-top:50px; */
+}
