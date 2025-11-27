@@ -1,0 +1,28 @@
+
+.header-content {              
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.title-wrapper{
+    display: flex;
+    /* gap: 10px; */
+    flex-direction: column;
+}
+.title{
+    font-size: 60px;
+    margin-block: 10px;
+}
+.scores-wrapper{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.scores-wrapper span + span {
+  margin-left: 0.8rem;
+  font-weight: 800;
+  color: #4ade80;
+}
